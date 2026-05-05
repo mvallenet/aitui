@@ -75,3 +75,4 @@ Use this file as a table of contents. Put durable explanations in:
 - Keep changes scoped to the requested feature or bug.
 - Update docs when behavior, setup, or public APIs change.
 - Preserve user-owned work in the repository; do not revert unrelated changes.
+- Do not run `git add`, `git commit`, or `git push`. The repository owner handles staging, committing, and pushing.
