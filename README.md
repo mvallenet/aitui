@@ -67,7 +67,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	fmt.Println(resp.Output)
+	fmt.Println(resp.Text)
 }
 ```
 
@@ -90,7 +90,7 @@ func runExplain(ctx context.Context, path string) error {
 		return err
 	}
 
-	fmt.Println(resp.Output)
+	fmt.Println(resp.Text)
 	return nil
 }
 ```
